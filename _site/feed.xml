@@ -5,9 +5,78 @@
     <description>Tons of algorithms</description>
     <link>http://localhost:4000/mediumish-theme-jekyll/</link>
     <atom:link href="http://localhost:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Oct 2020 13:07:16 +0530</pubDate>
-    <lastBuildDate>Mon, 19 Oct 2020 13:07:16 +0530</lastBuildDate>
+    <pubDate>Sat, 24 Oct 2020 00:01:41 +0530</pubDate>
+    <lastBuildDate>Sat, 24 Oct 2020 00:01:41 +0530</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Divide and Conquer Algorithms</title>
+        <description>&lt;h2 id=&quot;what-is-divide-and-conquer&quot;&gt;What is “Divide and Conquer”?&lt;/h2&gt;
+
+&lt;p&gt;Divide and Conquer algorithms are a class of algorithms that function based off of a “divide and conquer” concept. The concept of divide and conquer is a colonization strategy commonly used by the British during their extensive colonization. In this strategy, the population of a colony would be segregated by cultural, racial, or ideological differences to create a divide in society which led to the nation/colony falling apart making it easier for the colonizers to control the people of the land.&lt;/p&gt;
+
+&lt;p&gt;Certain algorithms make use of a part of this strategy to easier solve certain problems. These algorithms work by dividing the main problem into a set of sub-problems, which are again divided into a set of sub-problems, and so on until a problem becomes small/simple enough to be solved easily. Then the solutions to these many sub-problems are combined to find the solution to the main problem.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-divide-and-conquer-algorithms-work&quot;&gt;How Divide and Conquer algorithms work:&lt;/h2&gt;
+&lt;p&gt;Divide and Conquer algorithms have 3 main steps:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Divide: Divide the problem into similar sub-problems&lt;/li&gt;
+  &lt;li&gt;Conquer: Recursively solving these sub-problems (using the same divide and conquer strategy)&lt;/li&gt;
+  &lt;li&gt;Combine: Combine the results of the sub-problems to get the solution to the main problem.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some popular Divide and Conquer algorithms are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;MergeSort: MergeSort is a popular sorting algorithm that sorts an array of ‘n’ numbers with a complexity of O(n*log(n)). More information on the MergeSort algorithm can be found here.&lt;/li&gt;
+  &lt;li&gt;QuickSort: QuickSort, like MergeSort, is a sorting algorithm that also relies on the divide and conquer strategy but does so in a different way. QuickSort has the same complexity as MergeSort but if implemented efficiently can be 2-3 times as fast as MergeSort. More information on the QuickSort algorithm can be found here.&lt;/li&gt;
+  &lt;li&gt;Binary Search: Binary Search is a searching algorithm the allows to find a number in a sorted array of numbers. It relies on the divide and conquer algorithm to repeatedly cut down the size of the array that if is searching until it finds the element it’s looking for. Using this algorithm, we can search a sorted array with a time complexity of O(logn).&lt;/li&gt;
+  &lt;li&gt;Quick Exponentiation: Quick exponentiation is a method of calculating exponents that utilizes the divide and conquer algorithm. Using this method, we can find the value of XY with a time complexity of O(logn).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-general-example&quot;&gt;A general example:&lt;/h2&gt;
+&lt;p&gt;Lets a assume a problem which we will represent by S(0,1). Where S(0,1) represents that this problem covers the entirety of the problem and S(x,y) would represent the sub-problem that covers a portion of the main problem from x-&amp;gt;y.&lt;/p&gt;
+
+&lt;p&gt;For such a problem, if a divide and conquer approach were suitable, we would begin to recursively break down the problem into smaller subparts. i.e. We would proceed by saying that S(0,1) = S(0,0.5) + S(0.5,1) , where ‘+’ represents the suitable combination of the solutions to the sub-problems. From here we would the recursively break down the problem to make it easier and easier to solve it.&lt;/p&gt;
+
+&lt;h2 id=&quot;psuedocode&quot;&gt;Psuedocode:&lt;/h2&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;solve (int a, int b)
+{
+	If(base case condition)
+    {
+	//solve the base case and return the answer
+	}
+	Else
+    {
+		mid=(a+b)/2
+		A=solve(a,mid)
+		B=solve(mid,b)
+		Return combine(A,B)
+    }
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 23 Oct 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/mediumish-theme-jekyll/divide-and-conquer/</link>
+        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/divide-and-conquer/</guid>
+        
+        
+        <category>Divide and Conquer</category>
+        
+      </item>
     
       <item>
         <title>Powerful things you can do with the Markdown editor</title>
@@ -356,29 +425,6 @@
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/mediumish-theme-jekyll/press-and-education/</link>
         <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/press-and-education/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Options for creating a new site with Jekyll</title>
-        <description>&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;To install the Jekyll site into the directory you’re currently in, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; . If the existing directory isn’t empty, you can pass the –force option with jekyll new . –force.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; automatically initiates &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to install the dependencies required. (If you don’t want Bundler to install the gems, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new myblog --skip-bundle&lt;/code&gt;.)&lt;/li&gt;
-  &lt;li&gt;By default, the Jekyll site installed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; uses a gem-based theme called Minima. With gem-based themes, some of the directories and files are stored in the theme-gem, hidden from your immediate view.&lt;/li&gt;
-  &lt;li&gt;We recommend setting up Jekyll with a gem-based theme but if you want to start with a blank slate, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new myblog --blank&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;To learn about other parameters you can include with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt;, type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new --help&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/options-for-creating-new-site-with-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/options-for-creating-new-site-with-jekyll/</guid>
         
         
         <category>Jekyll</category>
