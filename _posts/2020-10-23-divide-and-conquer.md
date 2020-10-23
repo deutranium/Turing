@@ -30,7 +30,7 @@ Lets assume a problem which we will represent by S(0,1). Where S(0,1) represents
 For such a problem, if a divide and conquer approach were suitable, we would begin to recursively break down the problem into smaller subparts. i.e. We would proceed by saying that S(0,1) = S(0,0.5) + S(0.5,1) , where ‘+’ represents the suitable combination of the solutions to the sub-problems. From here we would the recursively break down the problem to make it easier and easier to solve it.
 
 ## Psuedocode:
-```
+``` c++
 solve (int a, int b)
 {
 	If(base case condition)
