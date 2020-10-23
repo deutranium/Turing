@@ -1,6 +1,7 @@
 # Guidelines
 * The basic structure has been setup with [Jekyll](www.jekyllrb.com). You do not need to know how to use it from a dev standpoint, unless you are interested in contributing to the layout. You need to know only how to create posts with it, which will be covered soon.
 * **DO NOT WORK ON THE MASTER**. Fork or work on a new branch and then merge it with master later.
+* **TEST YOUR CODE BEFORE MERGING WITH MASTER**
 
 This is the theme implemented:
 
@@ -22,4 +23,3 @@ This is the theme implemented:
 [Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
 
 ![mediumish](assets/images/mediumish-jekyll-template.png)
-
