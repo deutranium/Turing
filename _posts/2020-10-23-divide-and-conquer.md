@@ -25,7 +25,7 @@ Some prevalent Divide and Conquer algorithms are:
 * Quick Exponentiation: Quick exponentiation is a method that utilizes the divide and conquer algorithm to calculate the value of exponents. Using this method, we can find the value of X<sup>Y</sup> with a time complexity of O(logn).
 
 ## A general example:
-Let’s define a problem as S(x,y) working on the portion (x,y), a subset of (0,1). Here, the complete problem will be represented by S(0,1), and S(x,y) would represent a sub-problem working on the portion (x.y).
+Let’s define a problem as S(x,y) working on the portion (x,y), a subset of (0,1). Here, the complete problem will be represented by S(0,1), and S(x,y) would represent a sub-problem.
 
 For such a problem, if a divide and conquer approach were suitable, we would begin to recursively break down the problem into smaller subparts, i.e., we would proceed by saying that S(0,1) = S(0,mid1) + S(mid1,mid2) … + S(midN,1), where ‘+’ represents the suitable combination of the solutions to the sub-problems. We would then recursively break down the sub-problems to make it easier to solve.
 
