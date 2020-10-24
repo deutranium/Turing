@@ -20,6 +20,27 @@ This is the theme implemented:
 
 `bundle exec jekyll serve --watch`
 
+## Markdown tips and tricks
+
+- **Syntax highlighting in codeblocks:** Write the language name after the three backticks to apply its syntax highlighting
+Example:
+```python
+def fizz(buzz):
+	print("This is a print statement, or is it?")
+```
+*vs*
+```
+def fizz(buzz):
+	print("This is a print statement, or is it?")
+```
+
+## Points to remember
+
+- Do not use copyrighted images
+- Add tags and categories as required
+
+## The template
+
 [Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
 
 ![mediumish](assets/images/mediumish-jekyll-template.png)
