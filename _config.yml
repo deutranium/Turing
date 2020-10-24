@@ -37,6 +37,13 @@ authors:
     email: abhijeeth.singam@students.iiit.ac.in
     web: https://github.com/AbhiSingam/
     description: "Hi, I'm Abhijeeth. I'm a student at the International Institute of Information Technology - Hyderabad. I'm currently studying Computer Science and expect to graduate in 2023."
+  Aadarsh:
+    name: Aadarsh Raghunathan
+    display_name: Aadarsh
+    avatar: 'assets/images/avatar.png'
+    email: aadarsh.raghunathan@research.iiit.ac.in
+    web: https://github.com/aadarshraghunathan/
+    description: "Hi, I'm Aadarsh. I'm a student at the International Institute of Information Technology - Hyderabad. I'm currently studying Computational Natural Science and expect to graduate in 2024."
 
 # Plugins
 plugins:
