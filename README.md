@@ -13,7 +13,7 @@
 
 
 # Instructions to add a post
-1. The basic structure has been setup with [Jekyll](www.jekyllrb.com). If you have not read anything about Jekyll, just go through these:
+1. The basic structure has been setup with [Jekyll](https://jekyllrb.com/). If you have not read anything about Jekyll, just go through these:
 	* Go through *at least* one of these sources to be more comfortable with the process:
 		1. [A YT video on adding post](https://www.youtube.com/watch?v=gsYqPL9EFwQ&ab_channel=MikeDane)
 		2. [A Jekyll doc on adding post](https://jekyllrb.com/docs/step-by-step/08-blogging/)
