@@ -1,7 +1,9 @@
 ---
 layout: post
+featured : true
 title:  "Introduction to Cryptography"
-author: Sarthak
+author: Tushar
+author2: Sarthak 
 categories: [Cryptography, Security]
 image: https://cdn.pixabay.com/photo/2015/12/13/15/32/cryptographic-1091257_1280.jpg
 ---
