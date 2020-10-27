@@ -2,18 +2,19 @@
 layout: post
 featured : true
 title:  "Introduction to Cryptography"
-author: Tushar
-author2: Sarthak 
-categories: [Cryptography, Security]
+author: [ Sarthak, Tushar ]
+categories: [ Cryptography, Security ]
 image: https://cdn.pixabay.com/photo/2015/12/13/15/32/cryptographic-1091257_1280.jpg
 ---
 
 Cryptography is the science of data security and privacy in the context of communication. It may seem like a loaded definition, so let us understand what it means. Often, we want to tell someone something, but do it in a manner so that anyone else cannot know of it. This may be as simple as passing notes in a history class to something complex and important, such as sending company or government secrets. Remember when Sheldon speaks in Klingon with Leonard in Season 10 Episode 7 of The Big Bang Theory, so that Amy and Penny don’t understand them?
 
 <!-- Youtube video embedd-->
+<br>
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OOq3g8a7HRk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br>
 
 Here Sheldon "encrypts" his data by speaking in Klingon rather than English (which everyone would understand) and Leonard is the only other person who can "decrypt" it and understand what is being said. Cryptography includes several fields, such as User authentication and Information integrity (verifying the information has not been tampered with). In some cases, you want to share the information with someone, without letting them see it either! That may seem vacuous, but that is how your passwords are stored. More about this, and other aspects of cryptography, coming soon.
 
