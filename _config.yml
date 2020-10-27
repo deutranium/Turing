@@ -44,6 +44,20 @@ authors:
     email: aadarsh.raghunathan@research.iiit.ac.in
     web: https://github.com/aadarshraghunathan/
     description: "Hi, I'm Aadarsh. I'm a student at the International Institute of Information Technology - Hyderabad. I'm currently studying Computational Natural Science and expect to graduate in 2024."
+  Sarthak:
+    name: Sarthak Agrawal
+    display_name: Sarthak
+    avatar: 'assets/images/avatar.png'
+    email: sarthak.agrawal@research.iiit.ac.in
+    web: https://github.com/5arthak01/
+    description: "Hi! I'm Sarthak - a CS undergrad at IIIT-H and CSGO fanatic."
+  Tushar:
+    name: Tushar Jain
+    display_name: Tushar
+    avatar: 'assets/images/avatar.png'
+    email: t.jain@students.iiit.ac.in
+    web: https://github.com/tushar994
+    descrition: "Hi, I'm Tushar. I study CSE at International Institute of Information Technology - Hyderabad"
 
 # Plugins
 plugins:
