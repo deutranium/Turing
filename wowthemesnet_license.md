@@ -1,3 +1,5 @@
+This site uses [wowthemesnet/mediumish-theme-jekyll](https://github.com/wowthemesnet/mediumish-theme-jekyll) which is licensed under the MIT License, provided below.
+
 Copyright (c) 2019 WowThemes.net
 License: MIT
 
