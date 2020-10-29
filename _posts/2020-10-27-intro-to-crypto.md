@@ -4,6 +4,7 @@ featured : true
 title:  "Introduction to Cryptography"
 author: [ Sarthak, Tushar ]
 categories: [ Cryptography, Security ]
+tags: [cryptography, introductory]
 image: https://cdn.pixabay.com/photo/2015/12/13/15/32/cryptographic-1091257_1280.jpg
 ---
 
