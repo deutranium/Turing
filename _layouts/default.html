@@ -79,12 +79,16 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
 
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li> -->
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.instagram.com/algo.venture/"><i class="fab fa-instagram"></i> Follow </a>
+                </li>
 
                 <!-- <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
@@ -98,9 +102,9 @@ ga('send', 'pageview');
                 <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
                 </li> -->
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://github.com/deutranium/AI_AAD"><i class="fab fa-github"></i> Fork on Github</a>
-                </li>
+                </li> -->
 
                 {% include search-lunr.html %}
 
@@ -186,7 +190,7 @@ ga('send', 'pageview');
                 {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://github.com/deutranium/AI_AAD">Our github</a> by disaster AI
+                <a target="_blank" href="https://github.com/deutranium/AI_AAD"><i class="fab fa-github"></i> {{ site.name }}</a>
             </div>
         </div>
     </div>
