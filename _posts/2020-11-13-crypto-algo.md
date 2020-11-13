@@ -1,0 +1,50 @@
+---
+layout: post
+featured : true
+title:  "Cryptographic Algorithms"
+author: [ Sarthak, Tushar ]
+categories: [ Cryptography, Security, Algortihms ]
+tags: [cryptography, introductory, algorithms, secret key, public key, RSA, hashing, cryptographic algorithms]
+image: assets/images/crypto_algo.jpg
+---
+
+We talked about cryptography and what it means in our first article, [Introduction to cryptography]({% post_url 2020-10-27-intro-to-crypto %}). Now we talk about it in more depth, with focus on its implementation. 
+Some of the aims of Cryptography are to facilitate the following :- 
+1. Guarantee that no party can view information that should not be visible to it. 
+2. To verify the origin of information (i.e. user authentication). 
+3. Guaranteeing that information has not been tampered with after someone sends it. 
+4. Accountability for information sent by someone. 
+5. Restricting access to particular information. 
+
+In modern times, most of our information is transmitted, stored, and received from or through the internet and other online services. As the internet is closely tied to computation, modern cryptography is also very closely tied to computation. This is why cryptography achieves most of what it achieves with an _"algorithm"_ - a sequence of instructions for a computer to follow.  
+A common core to cryptographic algorithms is the principle of encryption. Suppose you want to hide some information, which we shall term as "Plaintext". Now, it need not strictly be text, but that is just how the name goes. **Encryption** is the process of transformation of this into something which is not easily recognisable or understandable, which we call "Ciphertext". Hence when someone discovers the Ciphertext, they will never think of the Plaintext. Each of these processes uses a "key".  
+
+<table class="table table-bordered"><tr><td style="text-align: center">
+Plaintext<span class="text-secondary">---Encryption---></span>Ciphertext<span class="text-secondary">---Decryption---></span>Plaintext
+</td></tr></table>
+<br>
+
+There are several ways of classifying cryptographic algorithms. We will talk about their categorisation based on the number of keys and their general application. 
+
+1. **Secret Key Cryptography** 
+
+    Secret Key Cryptography (SKC) methods employ a single key for both encryption and decryption. The well-known daily use of the lock and key is  similar to this. You use the same key to lock _and_ to unlock the lock. Hence, the privacy of the key is integral to the security of the system. Since the same key is used at both ends of communication, it is also called as Symmetric Key Cryptography. In a more mathematical nature, there are mainly two divisions – Stream ciphers and Block ciphers. (Articles coming on both soon!)  Data Encryption Standard (DES) is an example of an important SKC today. The Enigma code used by the Nazis during World War II and now popularised by the Oscar nominated movie The Imitation Game was also based on SKC. 
+2. **Public Key Cryptography** 
+
+    Public key cryptography (PKC) has been deemed as the most significant development in modern cryptography. Modern PKC was first described publicly by Martin Hellman and Whitfield Diffie in 1976. This allowed for secure communication even over insecure lines. That is, one could communicate even if the threat of hackers is present! The mechanism of PKC is similar to how a mailbox would work. People with a key to a slit could deposit a letter and only you, with the other key to open the bottom, can view the entire contents. So you can safely communicate with people without meeting in person or making any prior agreements (which are required in SKC). This is certainly a huge jump from making chits in a private language in a boring class!
+
+    The mathematical method depends on "trapdoor functions", which are easy to process, but are relatively extremely difficult to revert, _unless_ you have specific special information. One trivial, but famous and useful example is of multiplication. It is easy to multiply 2 large numbers (imagine a size you feel would be difficult), but it is difficult to factor even one number of this size. One of the most used algorithms, RSA is based on this very principle. Article on RSA coming soon!
+    
+    Notice how all these examples use two keys. Due to this reason, it is called as "Asymmetric Key Encryption". The two keys are called as Public key and Private key and are self-explanatory in their names. However, every coin has two sides. Asymmetric systems are very time consuming. So, often a SKC is used to encrypt a file and then PKC is used to provide the key used in it. More on this in the Diffie-Hellman key exchange article. 
+3. **Hashing** 
+
+    Hashing uses one-way functions that compute a string of fixed length, called hash, from a the plaintext. It is very hard to find the original string from the hash. Making minor changes to the starting text also changes the hash value completely. These functions in essence, use no key. Getting the plaintext from a hash is a very hard thing to do. Unlike the trapdoor functions used in asymmetric encryption, hash functions do not have any information that makes them easier to decrypt. They are designed such that it is nearly impossible to decrypt them. Decrypting a sha-256 hash will take on average more time than we humans will live in this universe. 
+    Hash functions are used to provide a digital fingerprint for a files content, and by some operating systems to encrypt passwords. They are also used in blockchain.  
+    There are several different classes of hash functions. Here are some of the most commonly used: 
+    * Secure Hashing Algorithm (SHA-2 and SHA-3) 
+    * RACE Integrity Primitives Evaluation Message Digest (RIPEMD) 
+    * Message Digest Algorithm 5 (MD5) 
+    * BLAKE2 
+
+    Each of these classes of hash function may contain several different algorithms. For example, SHA-2 is a family of hash functions that includes SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, and SHA-512/256. 
+    While all of these hash functions are similar, they differ slightly in the way the algorithm creates a hash. They also differ in the fixed length of the hash they produce. 
