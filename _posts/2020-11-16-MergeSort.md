@@ -41,7 +41,7 @@ void merge (int l, int m, int r, int * arr)
     }
     for(int j=0; j<right_size; j++)
     {
-        R[j]=arr[j+l+left_size+1];
+        R[j]=arr[j+m+1];
     }
     
     int i=0;	// iterator for L
