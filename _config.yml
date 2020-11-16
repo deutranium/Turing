@@ -58,6 +58,20 @@ authors:
     email: tushar.j@students.iiit.ac.in
     web: https://github.com/tushar994
     description: "Hi, I'm Tushar. I study CSE at International Institute of Information Technology - Hyderabad"
+  Ainesh:
+    name: Ainesh Sannidhi
+    display_name: Ainesh
+    avatar: 'assets/images/avatar.png'
+    email: ainesh.sannidhi@students.iiit.ac.in
+    web: https://github.com/inesane
+    description: "Hi, I'm Ainesh. I am currently a sophomore CSE undergrad at the International Institute of Information Technology - Hyderabad"
+  Rishabh:
+    name: Rishabh Khanna
+    display_name: Rishabh
+    avatar: 'assets/images/avatar.png'
+    email: rishabh.khanna@students.iiit.ac.in
+    web: https://github.com/KyaBacchaHai
+    description: "Hi, I'm Rishabh. I am currently a sophomore Computational Natural Sciences undergrad at the International Institute of Information Technology - Hyderabad"
 
 # Plugins
 plugins:
