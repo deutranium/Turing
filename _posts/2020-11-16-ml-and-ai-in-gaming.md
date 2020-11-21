@@ -4,6 +4,7 @@ title:  "The Advent of ML and AI in Gaming"
 author: [ Ainesh, Rishabh ]
 categories: [ Artificial Intelligence, Machine Learning, Gaming ]
 image: assets/images/ml-and-ai-in-gaming.jpg
+excerpt: "How machine learning and artificial intelligence are being used to revolutionize the field of gaming and what's in store for the future of gaming."
 ---
 
 ## Bots and NPCs
