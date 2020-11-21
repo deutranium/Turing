@@ -1,0 +1,47 @@
+---
+title: "Authors"
+layout: default
+permalink: "/authors.html"
+---
+
+{% for auth in site.authors %}
+    {% assign author=auth[1] %}
+    <hr>
+
+    <div class="row post-top-meta">
+        <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+            {% if author.avatar %}
+            <img class="author-thumb" src="{{ author.avatar| absolute_url }}" alt="{{ author.display_name }}">
+            {% else %}
+            <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+            {% endif %}
+            <a target="_blank" href="
+            {% if author.follow %}
+            {{ author.follow }}
+            {% else %}
+            {{ author.web }}
+            {% endif %}"
+            class="btn follow">Follow</a>
+        </div>
+        <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+            <a target="_blank" class="link-dark" href="{{ author.web }}"><h6>{{ author.display_name }}</h6></a>
+            <span class="author-description">{{ author.description }}</span>
+        </div>
+    </div>
+
+    <section class="recent-posts">
+    <div class="row listrecent">
+
+    {% for post in site.posts %}
+
+    {% if post.author contains auth[0] %}
+
+        {% include postbox.html %}
+
+    {% endif %}
+
+    {% endfor %}
+    </div>
+    </section>
+
+{% endfor %}
