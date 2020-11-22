@@ -72,7 +72,14 @@ authors:
     email: rishabh.khanna@students.iiit.ac.in
     web: https://github.com/KyaBacchaHai
     description: "Hi, I'm Rishabh. I am currently a sophomore Computational Natural Sciences undergrad at the International Institute of Information Technology - Hyderabad"
-
+  Saru:
+    name: Saravanan Senthil
+    display_name: Saru
+    avatar: 'assets/images/avatar.png'
+    email: saravanan.senthil@students.iiit.ac.in
+    web: https://github.com/saru-d2
+    description: "Hi, I'm Saru. I study CSE at IIIT Hyderabad"
+    
 # Plugins
 plugins:
   - jekyll-paginate
