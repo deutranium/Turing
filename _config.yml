@@ -5,9 +5,9 @@ description: "Tons of algorithms"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: "/Turing"
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# google_analytics: 'UA-46278016-1'
+disqus: 'https-5arthak01-github-io-turing'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
@@ -116,7 +116,7 @@ adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 exclude: [_exclude, changelog.md, LICENSE, wowthemesnet_license.md, README.md, Gemfile, Gemfile.lock, .gitignore]
 
