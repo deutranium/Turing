@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: What is Turing?
 permalink: /about
 comments: true
 ---
@@ -9,7 +9,8 @@ comments: true
 
 **Turing** is an E-magazine initiative focused on Computer Science articles, ranging from fields like Quantum Computation and Cryptography to simple topics like Divide and Conquer Algorithms. The articles have been clubbed into different categories along with tags which makes them easier to find along with giving a glimpse to similar articles at the same time.
 
-### How is Turing?
+#### How is Turing?
+<hr>
 <sup>Thanks for asking :") We're good :) <span style="color: #fefefe">(or are we?)</span></sup>
 
 **Turing** has been made possible with the Jekyll theme *[Mediumish](https://jekyllthemes.io/theme/mediumish)* and a team of 12 including [Professor Kannan](https://www.iiit.ac.in/people/faculty/srinathan/), [TA Mohit Sharma]() and 10 like-minded CS sophomores, who have started this website as the project for the Algorithm Analysis and Design course of the International Institute of Information Technology, Hyderabad.

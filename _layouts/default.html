@@ -94,22 +94,6 @@ ga('send', 'pageview');
                 <a target="_blank" class="nav-link" href="https://www.instagram.com/algo.venture/"><i class="fab fa-instagram"></i> Follow </a>
                 </li>
 
-                <!-- <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
-                </li> -->
-
-                <!-- <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
-                </li> -->
-
-                <!-- <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
-                </li> -->
-
-                <!-- <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://github.com/deutranium/AI_AAD"><i class="fab fa-github"></i> Fork on Github</a>
-                </li> -->
-
                 {% include search-lunr.html %}
 
             </ul>
@@ -159,31 +143,6 @@ ga('send', 'pageview');
 {% endif %} -->
     
 </div>
-
-<!-- Categories Jumbotron
-================================================== -->
-<!-- <div class="jumbotron fortags">
-	<div class="d-md-flex h-100">
-		<div class="col-md-4 transpdark align-self-center text-center h-100">
-            <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
-            </div>
-		</div>
-		<div class="col-md-8 p-5 align-self-center text-center">
-            {% assign categories_list = site.categories %}
-            {% if categories_list.first[0] == null %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
-                {% endfor %}
-            {% else %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
-                {% endfor %}
-            {% endif %}
-            {% assign categories_list = nil %}
-		</div>
-	</div>
-</div> -->
 
 <!-- Begin Footer
 ================================================== -->
