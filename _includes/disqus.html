@@ -1,5 +1,32 @@
 <section class="disqus">
     <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        
+        var disqus_shortname = '{{site.disqus}}'; 
+        var page_url = '{{ page.url | absolute_url }}';
+        var page_id = '{{ page.id }}';
+
+        var disqus_config = function () {
+        this.page.url = page_url;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = page_id; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+<!-- 
+<section class="disqus">
+    <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = '{{site.disqus}}'; 
         var disqus_developer = 0;
@@ -11,4 +38,4 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
+</section> -->
