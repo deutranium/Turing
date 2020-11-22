@@ -127,7 +127,10 @@ post_class: post-template
                         {% endif %}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="
+                        {%- capture author_url -%} 
+                        /authors#{{ author.display_name | replace: " ","-" }}
+                        {%- endcapture -%}
+                        <a target="_blank" class="link-dark" href="{{ author_url | absolute_url }}">{{ author.display_name }}</a><a target="_blank" href="
                         {% if author.follow %}
                         {{ author.follow }}
                         {% else %}

@@ -6,6 +6,7 @@ permalink: "/authors.html"
 
 {% for auth in site.authors %}
     {% assign author=auth[1] %}
+    <a target="_blank" class="link-dark" href="{{ author.web }}"><h2 id="{{ author.display_name | replace: " ","-" }}">{{ author.display_name }}</h2></a>
     <hr>
 
     <div class="row post-top-meta">
@@ -24,7 +25,6 @@ permalink: "/authors.html"
             class="btn follow">Follow</a>
         </div>
         <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-            <a target="_blank" class="link-dark" href="{{ author.web }}"><h6>{{ author.display_name }}</h6></a>
             <span class="author-description">{{ author.description }}</span>
         </div>
     </div>
