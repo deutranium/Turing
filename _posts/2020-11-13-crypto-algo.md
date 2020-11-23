@@ -1,6 +1,5 @@
 ---
 layout: post
-featured : true
 title:  "Cryptographic Algorithms"
 author: [ Sarthak, Tushar ]
 categories: [ Cryptography, Security, Algorithms ]
