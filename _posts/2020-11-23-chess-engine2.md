@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working of a Chess Engine II"
-author: Kunwar
+author: [ Kunwar, Aadarsh ]
 categories: [Chess]
 image: assets/images/EkdwuWgXYAUzaIb.jpg
 usemathjax: true
