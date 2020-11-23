@@ -86,6 +86,13 @@ authors:
     email: kunwar.maheep@students.iiit.ac.in
     web: https://github.com/simba611/
     description: "IIIT Hyderabad student for 2023 CSE graduation."
+  Kshitijaa:
+    name: Kshitijaa Jaglan
+    display_name: Kshitijaa Jaglan
+    avatar: 'assets/images/catto.jpg'
+    email: kshitijaa.jaglan@research.iiit.ac.in
+    web: https://github.com/deutranium/
+    description: "Heyyooo!! I am CHD sophomore at IIIT-H interested in anything cool ranging from GANs and robotics to cybersecurity and creating random snowflakes"
     
 # Plugins
 plugins:
