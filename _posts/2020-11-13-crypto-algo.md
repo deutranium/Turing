@@ -50,4 +50,8 @@ There are several different classes of hash functions. Here are some of the most
  
 Each of these classes of Hash function may contain several different algorithms. For example, SHA-2 is a family of hash functions that includes SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, and SHA-512/256.
 While all of these hash functions are similar, they differ slightly in the way the algorithm creates a hash. They also differ in the fixed length of the hash they produce.
- 
+<br><br>
+----
+<br><br>
+A point to note in modern cryptographic methods is that security is always a gamble if seen from a very barebones perspective. For example, we need to find just one number to break an RSA system. However, it is extremely _improbable_ to do so, since we use RSA-2048, which means the number we need to find is of the size 1028 bits, i.e. we need to check all primes between 2<sup>127</sup> and 2<sup>128</sup> since any of these could be our key. This means we need to check 2<sup>128</sup> - 2<sup>127</sup> = 2<sup>127</sup> numbers. Even if we remove all even numbers (since they cannot be primes), we get 2<sup>126</sup> numbers to check. That is more than 10<sup>37</sup>! Additionally, these are not one-time measures. To break this, we would have a time of about 3 minutes, since the key changes in about that time. So, it would be appropriate to say, "It is not a gamble if you know you're going to win". 
+Further, you should compare this security to more conventional systems as well. For instance, breaking a lock open is not easy, but certainly doable. So, when you leave your house locked, you depend on this very ideology. The same holds for safes, where we trust our most treasured material possessions. So this idea of security where we rely on systems that can be broken, but we make it very inefficient to do so, and then hope that no one bothers to attempt it either, for this same reason.
