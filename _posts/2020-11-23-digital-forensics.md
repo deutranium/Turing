@@ -1,6 +1,5 @@
 ---
 layout: post
-featured : true
 title:  "Digital Evidence Forensics"
 author: abhi
 categories: [ Digital Forensics ]
