@@ -3,7 +3,7 @@ layout: post
 title:  "Working of a Chess Engine II"
 author: Kunwar
 categories: [Chess]
-image: assets/images/The-Tur.jpg
+image: assets/images/EkdwuWgXYAUzaIb.jpg
 usemathjax: true
 ---
 
