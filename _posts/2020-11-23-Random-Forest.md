@@ -3,7 +3,7 @@ layout: post
 title:  "Random Forest"
 author: [ Rishabh ]
 categories: [ Machine Learning, Algorithms ]
-image: assets/images/RFimgmain.jpg
+image: assets/images/RFimgmain.png
 usemathjax: true
 ---
 
