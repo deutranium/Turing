@@ -37,66 +37,73 @@ authors:
   abhi:
     name: Abhijeeth Singam
     display_name: Abhi
-    gravatar: 9174e0b922aa2746766beb65425721e6
+    avatar: 'assets/images/abhi_dp.png'
     email: abhijeeth.singam@students.iiit.ac.in
     web: https://github.com/AbhiSingam/
     description: "Hi, I'm Abhijeeth. I'm a student at the International Institute of Information Technology - Hyderabad. I'm currently studying Computer Science and expect to graduate in 2023."
   Aadarsh:
     name: Aadarsh Raghunathan
     display_name: Aadarsh
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/aadu_dp.png'
     email: aadarsh.raghunathan@research.iiit.ac.in
     web: https://github.com/aadarshraghunathan/
     description: "Hi, I'm Aadarsh. I'm a student at the International Institute of Information Technology - Hyderabad. I'm currently studying Computational Natural Science and expect to graduate in 2024."
   Sarthak:
     name: Sarthak Agrawal
     display_name: Sarthak
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/sarthak_dp.png'
     email: sarthak.agrawal@research.iiit.ac.in
     web: https://github.com/5arthak01/
     description: "Hi! I'm Sarthak - a CS undergrad at IIIT-H and CSGO fanatic."
   Tushar:
     name: Tushar Jain
     display_name: Tushar
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/tushar_dp.png'
     email: tushar.j@students.iiit.ac.in
     web: https://github.com/tushar994
     description: "Hi, I'm Tushar. I study CSE at International Institute of Information Technology - Hyderabad"
   Ainesh:
     name: Ainesh Sannidhi
     display_name: Ainesh
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/ainesh_dp.png'
     email: ainesh.sannidhi@students.iiit.ac.in
     web: https://github.com/inesane
     description: "Hi, I'm Ainesh. I am currently a sophomore CSE undergrad at the International Institute of Information Technology - Hyderabad"
   Rishabh:
     name: Rishabh Khanna
     display_name: Rishabh
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/rishbish_dp.png'
     email: rishabh.khanna@students.iiit.ac.in
     web: https://github.com/KyaBacchaHai
     description: "Hi, I'm Rishabh. I am currently a sophomore Computational Natural Sciences undergrad at the International Institute of Information Technology - Hyderabad"
   Saru:
     name: Saravanan Senthil
     display_name: Saru
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/saru_dp.png'
     email: saravanan.senthil@students.iiit.ac.in
     web: https://github.com/saru-d2
     description: "Hi, I'm Saru. I study CSE at IIIT Hyderabad"
   Kunwar:
     name: Kunwar Maheep Singh
     display_name: Kunwar
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/kunwar_dp.png'
     email: kunwar.maheep@students.iiit.ac.in
     web: https://github.com/simba611/
     description: "IIIT Hyderabad student for 2023 CSE graduation."
   Kshitijaa:
     name: Kshitijaa Jaglan
     display_name: Kshitijaa Jaglan
-    avatar: 'assets/images/catto.jpg'
+    avatar: 'assets/images/shizia_dp.png'
     email: kshitijaa.jaglan@research.iiit.ac.in
     web: https://github.com/deutranium/
-    description: "Heyyooo!! I am CHD sophomore at IIIT-H interested in anything cool ranging from GANs and robotics to cybersecurity and creating random snowflakes"
+    description: "Heyyooo!! I am a CHD sophomore at IIIT-H interested in anything cool ranging from GANs and robotics to cybersecurity and creating random snowflakes"
+  Pahul:
+    name: Pahulpreet Singh
+    display_name: Pahul
+    avatar: 'assets/images/pahul_dp.png'
+    email: pahulpreet.singh@research.iiit.ac.in
+    web: https://github.com/codelixir/
+    description: "Hi, I'm Pahulpreet. I'm a student at the International Institute of Information Technology - Hyderabad. I'm currently studying Computational Natural Science and expect to graduate in 2024."
     
 # Plugins
 plugins:

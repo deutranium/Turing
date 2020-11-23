@@ -25,6 +25,10 @@ Now we need to obtain these sorted sub-lists. One way we could do this is to che
 
 To recap, MergeSort takes a list of elements, breaks it down into many sub-lists with one element each, and appropriately combines these sub-lists to finally get the sorted version of the given list.
 
+{:refdef: style="text-align: center;"}
+![merge_meme](../assets/images/merge-sort-goten-fusion.jpg)
+{:refdef}
+
 ## Sample Code:
 
 ```cpp
@@ -102,7 +106,7 @@ The time complexity of MergeSort in its worst and best cases are $$O(n * log(n))
 
 ## Space Complexity
 
-The space complexity of MergeSort is $$O(n)$$. At first, it may seem like its space complexity is $$O(n*log(n))$$ (especially if you draw out the splitting and merging), but it is not. This is because the code for MergeSort is a "Depth-First" code. This is concept commonly seen in graph traversal (you can check out our article on that **here**). Essentially what it means is that because MergeSort merges from the smallest arrays upwards, the amount of memory being used at any given time is capped at $$O(3n)$$. Thus, MergeSort has a space complexity of $$O(n)$$.
+The space complexity of MergeSort is $$O(n)$$. At first, it may seem like its space complexity is $$O(n*log(n))$$ (especially if you draw out the splitting and merging), but it is not. This is because the code for MergeSort is a "Depth-First" code. This is concept commonly seen in graph traversal (you can check out our article on that [here]({% post_url 2020-11-15-path-finding-algos %})). Essentially what it means is that because MergeSort merges from the smallest arrays upwards, the amount of memory being used at any given time is capped at $$O(3n)$$. Thus, MergeSort has a space complexity of $$O(n)$$.
 
 ## History
 

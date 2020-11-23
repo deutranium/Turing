@@ -1,6 +1,5 @@
 ---
 layout: post
-featured : true
 title:  "Introduction to Cryptography"
 author: [ Sarthak, Tushar ]
 categories: [ Cryptography, Security ]
