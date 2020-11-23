@@ -56,15 +56,15 @@ An improvement to this evaluation function would be to consider different future
 
 This leads to n-move deep analysis of a position.
 Mathematically, an example of one move deep analysis is as follows - 
-Let the current position be P and let the legal moves be M1, M2, …., Mn.
-Let M1P, M2P, …., MnP be the position after M1, M2, etc. are played. 
-Now choose Mi such that f(MiP) is maximum.
+Let the current position be P and let the legal moves be $$M_1, M_2, …., M_n$$.
+Let $$M_{1}P, M_{2}P, …., M_{n}P be the position after $$M_1, M_2$$, etc. are played. 
+Now choose $$M_i$$ such that $$f(M_{i}P)$$ is maximum.
 
 A better strategy will involve considering the opponent’s reply - 
-Let the current position be P and let the legal moves be M1, M2, …., Mn.
-Let Mi1, Mi2, …., Mis be all the legal moves of the opponent in position MiP.
-Black plays to minimise the evaluation and can be assumed to choose move Mij such that f(MijMiP) is minimum.
-White should choose the move Mi such that f(MijMiP) is maximum where Mij is chosen for any Mi such that  f(MijMiP) is minimum.
+Let the current position be P and let the legal moves be $$M_1, M_2, …., M_n$$.
+Let $$M_{i1}, M_{i2}, …., M_{is}$$ be all the legal moves of the opponent in position MiP.
+Black plays to minimise the evaluation and can be assumed to choose move $$M_{ij}$$ such that $$f(M_{ij}M_{iP})$$ is minimum.
+White should choose the move Mi such that $$f(M_{ij}M_{i}P)$$ is maximum where $$M_{ij}$$ is chosen for any Mi such that  $$f(M_{ij}M_{i}P)$$ is minimum.
 
 
 Similarly, a two move deep strategy can be constructed by extending the above argument to consider two moves each by machine and opponent.
