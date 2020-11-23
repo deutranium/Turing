@@ -79,6 +79,13 @@ authors:
     email: saravanan.senthil@students.iiit.ac.in
     web: https://github.com/saru-d2
     description: "Hi, I'm Saru. I study CSE at IIIT Hyderabad"
+   Kunwar:
+    name: Kunwar Maheep Singh
+    display_name: Kunwar
+    gravatar: 'assets/images/avatar.png'
+    email: kunwar.maheep@students.iiit.ac.in
+    web: https://github.com/simba611/
+    description: "IIIT Hyderabad student for 2023 CSE graduation."
     
 # Plugins
 plugins:
