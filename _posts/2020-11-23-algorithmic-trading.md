@@ -4,7 +4,7 @@ title:  "Spending Summer in Singapore On Your Algorithm's Money"
 author: [ Ainesh ]
 categories: [ Algorithms, Finance ]
 image: assets/images/algorithmic-trading-1.jpg
-excerpt: "The working and algorithms behind how dating apps work"
+excerpt: "What algorithmic trading is and how it is replacing human traders. Explains the basics of trading and the financial market as well."
 ---
 
 
