@@ -28,15 +28,17 @@ The following are some principles to evaluate chess positions -
 
 These are only crude generalizations from observing numerous games and all can be contradicted by particular counter examples. However, from these we can construct a crude evaluation function like - 
 
-$f(P) =    500(K-K') + 9(Q-Q') + 5(R-R') + 3(B-B'+N-N') + (P-P')$
+$$ f(P) =    500(K-K') + 9(Q-Q') + 5(R-R') + 3(B-B'+N-N') + (P-P') $$
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;$    - 0.5(D-D'+S-S'+I-I') $ 
+&nbsp;&nbsp;&nbsp;&nbsp;$$    - 0.5(D-D'+S-S'+I-I') $$ 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;$    + 0.1(M-M') + ... $
+&nbsp;&nbsp;&nbsp;&nbsp;$$    + 0.1(M-M') + ... $$
+
 
 where - 
+
 &nbsp;&nbsp;&nbsp;&nbsp;K,Q,R,B,N,P are the number of white kings, queens, rooks, bishops, knights, pawns respectively,
 
 &nbsp;&nbsp;&nbsp;&nbsp;D,S,I are doubled, backward and isolated white pawns,
