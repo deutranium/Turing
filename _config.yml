@@ -61,7 +61,7 @@ authors:
   Ainesh:
     name: Ainesh Sannidhi
     display_name: Ainesh
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/ainesh.jpeg'
     email: ainesh.sannidhi@students.iiit.ac.in
     web: https://github.com/inesane
     description: "Hi, I'm Ainesh. I am currently a sophomore CSE undergrad at the International Institute of Information Technology - Hyderabad"
@@ -92,7 +92,14 @@ authors:
     avatar: 'assets/images/catto.jpg'
     email: kshitijaa.jaglan@research.iiit.ac.in
     web: https://github.com/deutranium/
-    description: "Heyyooo!! I am CHD sophomore at IIIT-H interested in anything cool ranging from GANs and robotics to cybersecurity and creating random snowflakes"
+    description: "Heyyooo!! I am a CHD sophomore at IIIT-H interested in anything cool ranging from GANs and robotics to cybersecurity and creating random snowflakes"
+  Pahul:
+    name: Pahulpreet Singh
+    display_name: Pahul
+    avatar: 'assets/images/pahul.png'
+    email: pahulpreet.singh@research.iiit.ac.in
+    web: https://github.com/codelixir/
+    description: "Hi, I'm Pahulpreet. I'm a student at the International Institute of Information Technology - Hyderabad. I'm currently studying Computational Natural Science and expect to graduate in 2024."
     
 # Plugins
 plugins:
