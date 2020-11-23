@@ -57,7 +57,7 @@ An improvement to this evaluation function would be to consider different future
 This leads to n-move deep analysis of a position.
 Mathematically, an example of one move deep analysis is as follows - 
 Let the current position be P and let the legal moves be $$M_1, M_2, …., M_n$$.
-Let $$M_{1}P, M_{2}P, …., M_{n}P be the position after $$M_1, M_2$$, etc. are played. 
+Let $$M_{1}P, M_{2}P, …., M_{n}P$$ be the position after $$M_1, M_2$$, etc. are played. 
 Now choose $$M_i$$ such that $$f(M_{i}P)$$ is maximum.
 
 A better strategy will involve considering the opponent’s reply - 
