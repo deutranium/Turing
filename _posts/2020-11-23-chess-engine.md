@@ -3,7 +3,7 @@ layout: post
 title:  "Working of a Chess Engine I"
 author: Kunwar
 categories: [Chess]
-image: assets/images/chess_image1.jpg
+image: assets/images/The-Tur.jpg
 ---
 
 The story of chess engines begins in the year 1770, when the inventor Wolfgang von Kempelen revealed “The Turk”, a chess playing machine, to Empress Maria Theresa of Austria ,attempting to impress her and the general public. The machine managed to play at quite a high level and also demonstrated a solution to the famous Knight’s tour problem(The question is to cover all squares of a chessboard with a knight such that each square is visited only once). The legend of “The Turk” spread rapidly and within a few years the machine was touring Europe, defeating many people along the way. Unfortunately for Kempelen, the machine was shown to be a fraud. The machine was designed to allow a human operator to remain hidden underneath the chess board and play against the challenger. All in all, “The Turk” was an ingenious creation that has historical significance in our story but really did not add much to the theory of automated chess.
