@@ -31,10 +31,10 @@ These are only crude generalizations from observing numerous games and all can b
 $$ f(P) =    500(K-K') + 9(Q-Q') + 5(R-R') + 3(B-B'+N-N') + (P-P') $$
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;nbsp;&nbsp;&nbsp;$$    - 0.5(D-D'+S-S'+I-I') $$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$    - 0.5(D-D'+S-S'+I-I') $$ 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;nbsp;&nbsp;&nbsp;$$    + 0.1(M-M') + ... $$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$    + 0.1(M-M') + ... $$
 
 
 where - 
