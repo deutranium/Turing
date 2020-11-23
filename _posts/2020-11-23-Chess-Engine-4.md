@@ -20,9 +20,10 @@ A terminal position is a position from which no legal moves are possible. Associ
 The problem is to find the best move in any position. We assume the best move is the one which achieves the greatest possible value when the game ends if the opponent plays optimally. 
 Let F(p) be the greatest possible value achievable from position p from the viewpoint of the player whose move it is.
 Say in position p we have d moves, $$ p_1, p_2, …, p_d $$ . Now after playing a move $$ p_i $$ the position will have evaluation $$ -F(p_i) $$ for the same player, therefore - 
-$$ F(p) = f(p) , if d=0
 
-             = max(-F(p_1),-F(p_2), …, -F(p_d)) , if d > 0 $$
+        $$ F(p) = f(p)  , if d=0 $$
+
+           $$  =  max(-F(p_1),-F(p_2), …, -F(p_d)) , if d > 0 $$
 
 ## A Naive approach:
 
