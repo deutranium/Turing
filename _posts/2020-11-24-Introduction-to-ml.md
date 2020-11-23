@@ -1,14 +1,18 @@
 ---
 layout: post
+featured : true
 title:  "Introduction To Machine Learning"
-author: [Tushar]
+author: [Tushar , Pahul]
 categories: [Machine Learning]
-image: assets/images/chess_image1.jpg
+image: assets/images/ML2.jpg
+excerpt: "A basic insight into Machine Learning"
 ---
 
 ## What is Machine Learning? 
 
- 
+
+
+
 
 QUICK!! Find the answer to `4371 * 2584`. Do it in your head. Hard right? 
 
