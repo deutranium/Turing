@@ -31,18 +31,21 @@ usemathjax: true
 
 ## Overfitting and Underfitting
 &nbsp; &nbsp; &nbsp; &nbsp; Overfitting and underfitting are the two biggest causes for the poor performance of machine learning algorithms. The goal of a good machine learning model is to generalize well from the training data to any data from the problem domain. This allows us to make predictions in the future on data the model has never seen.
+
 &nbsp; &nbsp; &nbsp; &nbsp; Overfitting happens when a model learns the details and noise in the training data to the extent that it negatively impacts the prediction performance for unseen data. This usually happens when the model picks up noise or fluctuations and learns it applying it in future predictions. Underfitting happens when the model doesn’t learn enough relations to perform seen and future predictions. The aim of machine learning models is to find the sweet spot between overfitting and underfitting to find the best possible accuracy for that specific model.
 
 ## Python Implementation
+``` py
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import make_classification
+X, y = make_classification(n_samples=1000, n_features=4,
+                          n_informative=2, n_redundant=0,
+                          random_state=0, shuffle=False)
+clf = RandomForestClassifier(max_depth=2, random_state=0)
+clf.fit(X, y)
+print(clf.predict([[0, 0, 0, 0]]))
 ```
->>> from sklearn.ensemble import RandomForestClassifier
->>> from sklearn.datasets import make_classification
->>> X, y = make_classification(n_samples=1000, n_features=4,
-...                           n_informative=2, n_redundant=0,
-...                           random_state=0, shuffle=False)
->>> clf = RandomForestClassifier(max_depth=2, random_state=0)
->>> clf.fit(X, y)
-RandomForestClassifier(...)
->>> print(clf.predict([[0, 0, 0, 0]]))
+Output:
+```
 [1]
 ```
