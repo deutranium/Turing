@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working of a Chess Engine I"
-author: Kunwar
+author: [ Kunwar, Aadarsh ]
 categories: [Chess]
 image: assets/images/The-Tur.jpg
 ---
