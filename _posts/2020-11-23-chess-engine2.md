@@ -63,7 +63,7 @@ Now choose $$M_i$$ such that $$f(M_{i}P)$$ is maximum.
 A better strategy will involve considering the opponent’s reply - 
 Let the current position be P and let the legal moves be $$M_1, M_2, …., M_n$$.
 Let $$M_{i1}, M_{i2}, …., M_{is}$$ be all the legal moves of the opponent in position MiP.
-Black plays to minimise the evaluation and can be assumed to choose move $$M_{ij}$$ such that $$f(M_{ij}M_{iP})$$ is minimum.
+Black plays to minimise the evaluation and can be assumed to choose move $$M_{ij}$$ such that $$f(M_{ij}M_{i}P)$$ is minimum.
 White should choose the move Mi such that $$f(M_{ij}M_{i}P)$$ is maximum where $$M_{ij}$$ is chosen for any Mi such that  $$f(M_{ij}M_{i}P)$$ is minimum.
 
 
