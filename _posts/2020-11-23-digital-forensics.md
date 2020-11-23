@@ -53,7 +53,7 @@ There are 5 main steps to digital forensics:
 
    ​	Disk Hashing is the process of generating a "hash value" for the disk and disk image. A hash value is a unique value that is produced based on some calculation (differs with different hashing algorithms) done upon the provided file/disk. Thus, when the hash value of a disk image and the hash value of a disk are the same, the disk image is proved to be an exact replica of the disk. The main purpose of this is to prove the credibility of the evidence found from the disk image in court.
 
-   ​	There are many different kinds of hashing algorithms and commands which will each give a different hash value for the same disk since their methods of calculating the hash values is different. If you want to learn more about the hashing algorithms, you can check them out [here]({% post_url 2020-11-23-digital-forensics %}).
+   ​	There are many different kinds of hashing algorithms and commands which will each give a different hash value for the same disk since their methods of calculating the hash values is different. If you want to learn more about the hashing algorithms, you can check them out [here]({% post_url 2020-11-24-SHA-1 %}).
 
    ​	The hashing algorithm we used is "md5sum" although almost any hashing algorithm will work. Some other hashing algorithms are sha1sum and sha256sum. They all do the same thing, just slightly differently. There are other commands like "dcfldd" and "dhash" which can be used to simultaneously create an image of the disk and create the hash values for the disk and disk image.
 
