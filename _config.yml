@@ -82,7 +82,7 @@ authors:
   Kunwar:
     name: Kunwar Maheep Singh
     display_name: Kunwar
-    gravatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/avatar.png'
     email: kunwar.maheep@students.iiit.ac.in
     web: https://github.com/simba611/
     description: "IIIT Hyderabad student for 2023 CSE graduation."
