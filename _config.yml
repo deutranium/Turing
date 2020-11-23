@@ -1,8 +1,12 @@
 # Site
 name: "Turing"
 title: "Turing"
-description: "Tons of algorithms"
+tagline: "People are a pink collection of sensory data"
+description: "Turing is an E-magazine initiative focused on Computer Science articles by students of the college International Institute of Information Technology, Hyderabad (IIITH)"
 logo: 'assets/images/logo.png'
+social:
+  links:
+    - https://www.instagram.com/Turing.mag/
 favicon: 'assets/images/logo.png'
 baseurl: "/Turing"
 # google_analytics: 'UA-46278016-1'
