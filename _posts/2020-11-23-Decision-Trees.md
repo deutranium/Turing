@@ -72,5 +72,4 @@ clf.predict([[2., 2.]])
 Output:
 ```
 array([1])
-
 ```

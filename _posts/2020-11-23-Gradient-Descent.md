@@ -26,8 +26,8 @@ usemathjax: true
 ## Implement Gradient Descent
 1. Randomly initialize values.
 2. Update values:
-<img src="../assets/images/GDimg3.png" style="width:100%">
-3. Continue the process until $slope = 0$. Due to floating point error, we usually use $slope < Very\ Small\ Value$.
+$$ weight^{new} = weight^{old} - constant*\frac{∂J(\theta)}{∂weight}$$
+3. Continue the process until $$slope = 0$$. Due to floating point error, we usually use $$slope < Very\ Small\ Value$$.
 
 ## Advantages and Disadvantages 
 ### Advantages:
