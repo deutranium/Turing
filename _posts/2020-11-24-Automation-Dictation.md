@@ -1,9 +1,11 @@
 ---
 layout: post
+featured : true
 title:  "From Dictation To Automation"
-author: [Tushar]
+author: [Tushar , Pahul]
 categories: [Machine Learning]
-image: assets/images/chess_image1.jpg
+image: assets/images/ML1.jpg
+excerpt : "The problems that Machine Learning algorithms can be used to solve"
 ---
 
 # From Dictation To Automation 
