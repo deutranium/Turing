@@ -46,6 +46,7 @@ $$G = ∑(pk*(1 - pk))$$
 - Can be combined with other models and decision techniques.
 - Can generate decent actuaries even with a little training data.
 - Help study the worst, average and best case values for various scenarios.
+
 ### Disadvantages:
 - They are unstable. Small changes in data can drastically change the most optimal tree.
 - Are often considered to be relatively inaccurate. However, an average of a bunch of them (Random Forest) is used to tackle this.
@@ -60,13 +61,16 @@ $$G = ∑(pk*(1 - pk))$$
 &nbsp; &nbsp; &nbsp; &nbsp; This method starts at the root node and is continued recursively downwards, here there is a chance of losing relevant sub-trees. Eg: Pessimistic Error Pruning
 
 ## Python Implementation
+```py
+from sklearn import tree
+X = [[0, 0], [1, 1]]
+Y = [0, 1]
+clf = tree.DecisionTreeClassifier()
+clf = clf.fit(X, Y)
+clf.predict([[2., 2.]])
 ```
->>> from sklearn import tree
->>> X = [[0, 0], [1, 1]]
->>> Y = [0, 1]
->>> clf = tree.DecisionTreeClassifier()
->>> clf = clf.fit(X, Y)
->>> clf.predict([[2., 2.]])
+Output:
+```
 array([1])
 
 ```

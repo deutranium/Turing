@@ -14,7 +14,7 @@ usemathjax: true
 
 <img src="../assets/images/RFimg.png" style="width:100%">
 
-&nbsp; &nbsp; &nbsp; &nbsp; Usually, in classifications with p features, √p features are used in each split and in regression p/3 with a minimum of 5 are used. In practice, the distribution of these depends on the problem at hand.
+&nbsp; &nbsp; &nbsp; &nbsp; Usually, in classifications with $p$ features, $√p$ features are used in each split and in regression $p/3$ with a minimum of 5 are used. In practice, the distribution of these depends on the problem at hand.
 
 ## Advantages and Disadvantages 
 ### Advantages:

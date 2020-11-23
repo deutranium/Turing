@@ -3,7 +3,7 @@ layout: post
 title:  "Gradient Descent"
 author: [ Rishabh ]
 categories: [ Machine Learning, Algorithms ]
-image: assets/images/GDimgmain.jpg
+image: assets/images/GDimgmain.png
 usemathjax: true
 ---
 
@@ -26,20 +26,21 @@ usemathjax: true
 ## Implement Gradient Descent
 1. Randomly initialize values.
 2. Update values:
-
-3. Continue the process until slope = 0. Due to floating point error, we usually use slope < Very Small Value
+<img src="../assets/images/GDimg3.png" style="width:100%">
+3. Continue the process until $slope = 0$. Due to floating point error, we usually use $slope < Very\ Small\ Value$.
 
 ## Advantages and Disadvantages 
 ### Advantages:
 - Computationally fast
 - Efficient for large datasets.
 - Ease of implementation.
+
 ### Disadvantages:
 - Frequent updates and computationally expensive.
 - External noise minima can be hard to find.
 
 ### Python Implementation
-```
+```py
 from sklearn.linear_model import SGDClassifier
 X = [[0., 0.], [1., 1.]]
 y = [0, 1]
@@ -51,5 +52,4 @@ clf.predict([[2., 2.]])
 Output:
 ```
 array([1])
-
 ```
