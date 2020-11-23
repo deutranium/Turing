@@ -1,6 +1,5 @@
 ---
 layout: post
-featured : true
 title:  "Introduction To Machine Learning"
 author: [Tushar , Pahul]
 categories: [Machine Learning]

@@ -1,5 +1,6 @@
 ---
 layout: post
+featured : true
 title:  "Algorithms in Chess Engines"
 author: [ Aadarsh , Kunwar  ]
 categories: [ Chess ]

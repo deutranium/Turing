@@ -1,5 +1,6 @@
 ---
 layout: post
+featured : true
 title:  "Dating Apps : Algorithms and ML"
 author: [ Ainesh, Rishabh ]
 categories: [ Machine Learning, Algorithms ]
