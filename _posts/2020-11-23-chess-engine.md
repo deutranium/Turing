@@ -31,3 +31,4 @@ Any ‘position’ P in chess will require the following data to be well defined
 5. A statement of the number of moves made since the last pawn move or capture. This is important because of the 50 move drawing rule
 
 
+[Next in series](/chess-engine2)
