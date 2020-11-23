@@ -7,8 +7,7 @@ categories: [Machine Learning]
 image: assets/images/ML1.jpg
 excerpt : "The problems that Machine Learning algorithms can be used to solve"
 ---
-
-# From Dictation To Automation 
+ 
 
 Machine learning can be used to solve a bunch of problems that are in general hard to solve. The kinds of problems machine learning can be used to solve are, as we discussed earlier, highly varied. When Spotify recommends you to add W.A.P. to your morning playlist, and when Gmail marks the email from the Nigerian prince as "Spam", what goes behind the scenes is completely different because they have very separate algorithms. We can classify Machine Learning algorithms based on what kinds of problems they solve. Here are some of the problems which are the most commonly solved problems : 
 
