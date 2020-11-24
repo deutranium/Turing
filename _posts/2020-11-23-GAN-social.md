@@ -7,7 +7,7 @@ image: assets/images/intro-to-gans.jpeg
 usemathjax: true
 ---
 
-As you must have seen in the previous two articles of the series: [Introduction]() and [Applications](), GANs can produce "realistic" data, but mind you, it is still "realistic" and not "real".
+As you must have seen in the previous two articles of the series: [Introduction]({{ site.baseurl }}{% post_url 2020-11-23-GAN-social %}) and [Applications]({{ site.baseurl }}{% post_url 2020-11-23-GAN-application %}), GANs can produce "realistic" data, but mind you, it is still "realistic" and not "real".
 
 Coming to the social aspects of this technique, you must have seen a few examples of the applications of GANs in the [previous article] and how they can affect us. This article will mainly discuss the threats it can pose.
 One can easily guess that the main issue that can be perceived as a threat would be somehow linked to differentiating between the “realistic” and “real” data. This can lead to counterfeiting through deep fakes etc., in even essential services like banking.
@@ -31,3 +31,5 @@ Using GANs, one can easily convert a typical picture of any person to look like 
 
 ## Conclusion
 We just saw the adverse effects GANs can have, which are worsened with the fact that the codes for such actions are usually easily accessible. All this leads to a wide-spread dilemma about both the accessibility and the scope of use of these. As a result, required measures should be taken while ensuring that the technology does not become restricted to a particular entitled section. One such example was when OpenAI decided to share the code with limited text generation capabilities instead of what they thought would be too dangerous to be released into the public domain.
+
+With technology and research in the field of GANs developing at a rapid pace, we must ensure that humans are always one step ahead of technology, because otherwise there could be severe implications.
