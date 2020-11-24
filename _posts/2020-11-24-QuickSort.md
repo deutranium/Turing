@@ -10,7 +10,7 @@ Ever wanted to know what QuickSort is? Or even just wondered how the person who 
 
 QuickSort is a divide and conquer based sorting algorithm made by Tony Hoare in 1959. It's one of the most frequently used sorting algorithms today.
 
-Before you read this article, you should check out our article on [MergeSort]({{ site.baseurl }}{% post_url 2020-11-16-MergeSort %} as it will make this article easier to understand.
+Before you read this article, you should check out our article on [MergeSort]({{ site.baseurl }}{% post_url 2020-11-16-MergeSort %}) as it will make this article easier to understand.
 
 ## How does QuickSort work?
 
