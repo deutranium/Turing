@@ -20,8 +20,8 @@ Divide and Conquer algorithms have three main steps:
 3. **Combine:** Combine the results of the sub-problems to get the solution to the main problem.
 
 Some prevalent Divide and Conquer algorithms are:
-- [MergeSort]({{ site.baseurl }}{% post_url 2020-11-16-MergeSort %}: MergeSort is a popular sorting algorithm that sorts an array of $$n$$ numbers by splitting it into multiple smaller sorted arrays and then merging them to create a larger sorted array. This way, it can sort an array of numbers with a time complexity of $$O(nlog(n))$$.
-- [MergeSort]({{ site.baseurl }}{% post_url 2020-11-24-QuickSort %}: QuickSort, like MergeSort, is a sorting algorithm that also relies on the divide and conquer strategy but does so in a different way. QuickSort has the same complexity as MergeSort, but it can run 2-3 times as fast as MergeSort in a practical application if implemented cleverly.
+- [MergeSort]({{ site.baseurl }}{% post_url 2020-11-16-MergeSort %}): MergeSort is a popular sorting algorithm that sorts an array of $$n$$ numbers by splitting it into multiple smaller sorted arrays and then merging them to create a larger sorted array. This way, it can sort an array of numbers with a time complexity of $$O(nlog(n))$$.
+- [MergeSort]({{ site.baseurl }}{% post_url 2020-11-24-QuickSort %}): QuickSort, like MergeSort, is a sorting algorithm that also relies on the divide and conquer strategy but does so in a different way. QuickSort has the same complexity as MergeSort, but it can run 2-3 times as fast as MergeSort in a practical application if implemented cleverly.
 - **Binary Search:** Binary Search is a searching algorithm the allows us to find a specific number in a sorted array of numbers. It relies on the divide and conquer algorithm to repeatedly cut down the size of the array being searched until it finds the element. Using this algorithm, we can search a sorted array with a time complexity of $$O(log(n))$$.
 - **Quick Exponentiation:** Quick exponentiation is a method that utilizes the divide and conquer algorithm to calculate the value of exponents. Using this method, we can find the value of $$X^Y$$ with a time complexity of $$O(logn)$$.
 
