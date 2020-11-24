@@ -1,6 +1,5 @@
 ---
 layout: post
-featured : true
 title:  "From Dictation To Automation"
 author: [Tushar , Pahul]
 categories: [Machine Learning]

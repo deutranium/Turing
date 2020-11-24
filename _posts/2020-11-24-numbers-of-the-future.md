@@ -8,7 +8,7 @@ excerpt: "A basic insight into some classification algorithms"
 ---
 
 
-This is an article on Classification algorithms, that continues from the article [From Dictation To Automation]({% post_url 2020-11-24-Automation-Dictation %}). If you want an introduction to Machine Learning, check out [Introduction to Machine Learning]({% post_url 2020-11-24-Introduction-to-ml %}). 
+This is an article on Classification algorithms, that continues from the article [From Dictation To Automation]({{ site.baseurl }}{% post_url 2020-11-24-Automation-Dictation %}). If you want an introduction to Machine Learning, check out [Introduction to Machine Learning]({{ site.baseurl }}{% post_url 2020-11-24-Introduction-to-ml %}). 
 
 As humans, we classify things and beings around us all the time. From the popular jocks who can't add two numbers, to the creepy nerds, who couldn't catch a ball if you held them at gunpoint. From the cute puppy the neighbor has to the scary tarantula the creepy middle aged man who lives opposite your house. From the beautiful piece `Mariage d'Amour` to my horrible attempts at playing the violin, which my mom describes as "the sound of nails on a chalkboard, while surrounded by screaming children in a burning room". Thanks mom. Now I'm writing articles.
 
