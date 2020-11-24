@@ -7,7 +7,7 @@ tags: [cryptography, introductory, algorithms, secret key, public key, RSA, hash
 image: assets/images/crypto_algo.jpg
 ---
  
-We talked about cryptography and what it means in our first article, [Introduction to cryptography]({% post_url 2020-10-27-intro-to-crypto %}). Now we talk about it in more depth, with a focus on its implementation.
+We talked about cryptography and what it means in our first article, [Introduction to cryptography]({{ site.baseurl }}{% post_url 2020-10-27-intro-to-crypto %}). Now we talk about it in more depth, with a focus on its implementation.
 Some of the aims of Cryptography are to facilitate the following:
 1. Guarantee that no party can view information that should not be visible to it.
 2. To verify the origin of information (i.e. user authentication).
@@ -27,7 +27,7 @@ There are several ways of classifying cryptographic algorithms. We will talk abo
  
 ## Secret Key Cryptography
  
-Secret Key Cryptography (SKC) methods employ a single key for both encryption and decryption. The well-known daily use of the lock and key is similar to this. You use the same key to lock _and_ to unlock the lock. Hence, the privacy of the key is integral to the security of the system. Since the same key is used at both ends of the communication, it is also called as Symmetric Key Cryptography. It has mainly two classifications – Stream ciphers and Block ciphers. One of the most well-known encryption method, the Caesar Cipher, is an SKC. Data Encryption Standard (DES) is an example of an important SKC today. The Enigma code used by the Nazis during World War II and now popularised by the Oscar-nominated movie _"The Imitation Game"_ was also based on SKC. Read about SKC in the article [Secret Key Cryptography]({% post_url 2020-11-16-SKC %}).
+Secret Key Cryptography (SKC) methods employ a single key for both encryption and decryption. The well-known daily use of the lock and key is similar to this. You use the same key to lock _and_ to unlock the lock. Hence, the privacy of the key is integral to the security of the system. Since the same key is used at both ends of the communication, it is also called as Symmetric Key Cryptography. It has mainly two classifications – Stream ciphers and Block ciphers. One of the most well-known encryption method, the Caesar Cipher, is an SKC. Data Encryption Standard (DES) is an example of an important SKC today. The Enigma code used by the Nazis during World War II and now popularised by the Oscar-nominated movie _"The Imitation Game"_ was also based on SKC. Read about SKC in the article [Secret Key Cryptography]({{ site.baseurl }}{% post_url 2020-11-16-SKC %}).
  
 ## Public Key Cryptography
  
@@ -35,7 +35,7 @@ Public key cryptography (PKC) has been deemed as the most significant developmen
  
 The mathematical method depends on "trapdoor functions", which are easy to process, but are relatively extremely difficult to revert, _unless_ you have specific special information. One trivial, but famous and useful example is of multiplication. It is easy to multiply two large numbers (imagine a size you feel would be difficult), but it is difficult to factor even one number of this size. One of the most used algorithms, RSA, is based on the difficulty of factorisation. Article on RSA coming soon!
  
-Notice how all these examples use two keys. Due to this reason, it is called "Asymmetric Key Encryption". The two keys are called Public key and Private key and are self-explanatory in their names. However, every coin has two sides. Asymmetric systems are very time-consuming. So, often an SKC is used to encrypt a file and then PKC is used to provide the key used in it. More on Public Key Cryptography and Diffie-Hellman Key exchange in [this article]({% post_url 2020-11-21-PKC %}).
+Notice how all these examples use two keys. Due to this reason, it is called "Asymmetric Key Encryption". The two keys are called Public key and Private key and are self-explanatory in their names. However, every coin has two sides. Asymmetric systems are very time-consuming. So, often an SKC is used to encrypt a file and then PKC is used to provide the key used in it. More on Public Key Cryptography and Diffie-Hellman Key exchange in [this article]({{ site.baseurl }}{% post_url 2020-11-21-PKC %}).
  
 ## Hashing
  

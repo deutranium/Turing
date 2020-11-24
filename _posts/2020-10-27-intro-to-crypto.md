@@ -24,4 +24,4 @@ Evidence of use of cryptography in some form has been seen in most major early c
 
 These early forms of encryption can be easily broken with modern computational power, so a need of superior of cryptographic ideas was established. With the advent of the digital age, modern data and communication is largely digital, which is why cryptography is largely applied to computers. For this, cryptographic methods had to become mathematical. In 1945, Claude Shannon of Bell Labs published an article titled, "A mathematical theory of cryptography.", now considered to be the advent of modern cryptography. This, along with the idea of public key cryptography emerging in the 1970s, materialised as the RSA algorithm and Diffie–Hellman key exchange, are arguably the foundations of modern cryptography. 
 
-If you want to know more, check out the article [Cryptographic Algorithms]({% post_url 2020-11-13-crypto-algo %})
+If you want to know more, check out the article [Cryptographic Algorithms]({{ site.baseurl }}{% post_url 2020-11-13-crypto-algo %})
